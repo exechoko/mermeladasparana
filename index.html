@@ -145,7 +145,7 @@
                 <div class="attr-nav">
                     <ul>
                         <li class="side-menu">
-							<a href="#">
+							<a href="#TIENDA">
 								<i class="fa fa-shopping-cart"></i>
 								<span id="nrocarrito" class="badge">0</span>
 								<p>Mi carrito</p>
@@ -319,17 +319,17 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!--div-- class="row">
                 <div class="col-lg-12">
                     <div class="special-menu text-center">
                         <div class="button-group filter-button-group">
                             <button class="active" data-filter="*">Todos</button>
                             <button data-filter=".top-featured">Más vendidos</button>
-                            <!--button-- data-filter=".best-seller">Best seller</!--button-->
+                            <!--button-- data-filter=".best-seller">Best seller</!--button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </!--div-->
 
             <!--div-- class="row special-list">
                 <div class="col-lg-3 col-md-6 special-grid best-seller">
@@ -437,8 +437,12 @@
                         <hr>
                         <!-- Precio total -->
                         <p class="text-right">Total: $ <span id="total"></span></p>
-                        <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
-                        <button id="boton-pagar" class="btn btn-success">PAGAR</button>
+
+                        <div class="button-group filter-button-group">
+                            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                            <button id="boton-pagar" class="btn btn-success">PAGAR</button>
+                        </div>
+
                     </aside>
                 </div>
             </div>
@@ -1093,7 +1097,7 @@
 				<div class="row">
 					<div class="col-lg-4 col-md-12 col-sm-12">
 						<div class="footer-top-box">
-							<h3>Business Time</h3>
+							<h3>Horarios</h3>
 							<ul class="list-time">
 								<li>Monday - Friday: 08.00am to 05.00pm</li> <li>Saturday: 10.00am to 08.00pm</li> <li>Sunday: <span>Closed</span></li>
 							</ul>
@@ -1197,6 +1201,7 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
+    
 </body>
 
 </html>
