@@ -154,9 +154,19 @@ function vaciarCarrito() {
     calcularTotal();
 }
 
+//Continuar
+/*function enviarCarrito(){
+
+    let mensaje = carrito.$items.info;
+    let referencia = document.createElement('a');
+    referencia.setAttribute('href', 'https://wa.me/543434027770?text=Me%20gustaría%20saber%20el%20precio%20del%20coche' )
+    
+    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> </a>
+}*/
+
 // Eventos
 $botonVaciar.addEventListener('click', vaciarCarrito);
-$botonPagar.addEventListener('click', calcularTotal);
+//$botonPagar.addEventListener('click', enviarCarrito);
 
 // Inicio
 renderItems();
